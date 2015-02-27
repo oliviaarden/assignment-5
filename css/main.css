@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.grain-1 {
+  float: left;
+  width: 10%;
+  padding: 0.5em 0em 0em 0em;
+}
+
+.grain-2 {
+  float: right;
+  width: 10%;
+  padding: 0.5em 0em 0em 0em
+}
+
+.inset {
+  float: left;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.p2 {
+  clear: left;
+}
+
+.clear-it {
+  clear: right;
+}
+
+ div {
+   background-color: #d05c2e ;
+   overflow: hidden;
+ }
+
+ nav {
+   background-color: #d05c2e;
+   text-align: center;
+ }
+
+ nav ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+ }
+
+ nav a {
+   display: block;
+   padding: 0.5em 0.75em 0.75em;
+   margin: 0px;
+   background-color: #d05c2e;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ nav a:hover {
+   background-color: #a93f35;
+ }
+
+ nav li {
+   font-weight: normal;
+   font-color: #fff;
+   font-size: 1rem;
+   font-style: normal;
+   font-family: 'Merriweather';
+   line-height: 1;
+   float: left;
+   width: 33.333%;
+ }
+
+h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #d05c2e;
+  display: block;
+  padding: 15px;
+  margin: 0;
+  font-family: 'Merriweather';
+}
+
+
+ main {
+   background-color: #d05c2e;
+   float: left;
+   /*width: calc(75% - 2em);*/
+   width: 75%;
+   padding: 1em;
+ }
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 1em;
+}
