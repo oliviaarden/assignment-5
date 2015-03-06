@@ -9,7 +9,7 @@ html {
 body {
   font-family: 'Merriweather', serif;
   font-size: .75em;
-  line-height: 15px;
+  line-height: 20px;
   margin: 0;
   padding: 0;
 }
@@ -28,22 +28,23 @@ body {
 
 .grains {
   float: left;
-  width: 35%;
-  margin: 10px;
-  padding: 0.5em 0em 0.5em 0em;
+  clear: left;
+  width: 33.33%;
+  margin: 0em;
+  padding: 1em 1em 1em 1em;
 }
 
 .cereals {
   float: right;
-  width: 35%;
-  clear: right;
+  width: 33.33%;
+  clear: both;
   padding: 0em 0.5em 0.5em 0.5em;
 }
 
 .quinoa {
   float: right;
-  width: 35%;
-  clear: right;
+  width: 33.33%;
+  clear: both;
   padding: 0em 0.5em 0.5em 0.5em
 }
 
@@ -91,11 +92,15 @@ body {
   margin-right: 1em;
 }
 
+.p1 {
+  clear: right;
+  margin: 10px;
+}
+
 .p2 {
   clear: left;
   margin: 10px;
 }
-
 
  nav {
    background-color: #d05c2e;
